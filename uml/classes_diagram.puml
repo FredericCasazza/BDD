@@ -1,0 +1,21 @@
+@startuml
+
+    class User {
+        {field} id: int
+        {field} firstName: string
+        {field} lastName: string
+        {field} email: string
+        {field} password: string
+    }
+
+    class Movie {
+        {field} id: int
+        {field} title: string
+        {field} summary: string
+        {field} director: string
+        {field} producer: string
+        {field} starring: string
+        {field} releaseDate: DateTimeInterface
+    }
+
+@enduml
