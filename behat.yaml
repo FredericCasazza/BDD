@@ -1,0 +1,27 @@
+default:
+  suites:
+    add_movie:
+      contexts:
+        - 'App\Features\AddMovieContext'
+      paths:
+        - '%paths.base%/features/add_movie.feature'
+    consult_movie:
+      contexts:
+        - 'App\Features\ConsultMovieContext'
+      paths:
+        - '%paths.base%/features/consult_movie.feature'
+    list_movies:
+      contexts:
+        - 'App\Features\ListMoviesContext'
+      paths:
+        - '%paths.base%/features/list_movie.feature'
+    remove_movie:
+      contexts:
+        - 'App\Features\RemoveMovieContext'
+      paths:
+        - '%paths.base%/features/remove_movie.feature'
+    update_movie:
+      contexts:
+        - 'App\Features\UpdateMovieContext'
+      paths:
+        - '%paths.base%/features/update_movie.feature'
