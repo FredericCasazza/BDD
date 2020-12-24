@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Tests\Unit\UseCase;
-
 
 use App\Adapter\InMemory\Repository\MovieRepository;
 use App\Entity\Movie;
